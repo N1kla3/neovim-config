@@ -21,11 +21,12 @@ let NERDTreeShowHidden = 1
 
 set background=dark
 colorscheme palenight
-set scrolloff=2
+set scrolloff=4
 set noswapfile
 set number
 set termguicolors
 set tabstop=4
+set mouse=a
 
 nmap <F5> :NERDTreeToggle<CR>
 nnoremap <Esc> <C-\><C-N> 
